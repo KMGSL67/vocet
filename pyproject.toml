@@ -1,0 +1,29 @@
+[project]
+name = "vocet"
+version = "0.9.0"
+description = "Vocet: offline dictation for Windows. Hold a key, speak, and your words appear where you're typing."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "KMGSL67" }]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.4.6",                # audio arrays
+    "sounddevice>=0.5.6",          # microphone capture (PortAudio)
+    "soxr>=1.1.0",                 # high-quality resampling to 16 kHz
+    "psutil>=7.2.2",               # CPU / RAM checks, the program behind a window
+    "huggingface-hub>=1.33.0",     # the one-time model download only
+    "openvino-genai>=2026.4.0.0",  # Whisper (speech) and Phi-4-mini (AI formatting), on this PC
+    "pyside6-essentials>=6.11.2",  # Qt: window, floating pill and tray icon (LGPL-3.0)
+]
+
+[project.urls]
+Homepage = "https://github.com/KMGSL67/vocet"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

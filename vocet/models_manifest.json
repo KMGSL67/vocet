@@ -1,0 +1,571 @@
+{
+ "_about": "Pinned commits and SHA-256 of every model file Vocet may load. Verified by vocet/integrity.py before every load.",
+ "models": {
+  "llm/phi-4-mini": {
+   "repo": "OpenVINO/Phi-4-mini-instruct-int4-ov",
+   "revision": "e5813af02e8560a9186c41f932f21cbb584a0907",
+   "files": {
+    "added_tokens.json": {
+     "size": 249,
+     "sha256": "d4f2aceb0f20b71dd1f4bcc7e052e4412946bf281840b8f83d39f259571af486"
+    },
+    "chat_template.jinja": {
+     "size": 2436,
+     "sha256": "7628a0569add8b8aef89b9540f7aa1c5db42cb62bd17d74c496b9a4784f9af56"
+    },
+    "chat_template_original.jinja": {
+     "size": 424,
+     "sha256": "39ac5a8e58e61443a706a0266f1e4ae2607e4c3f56a9c8cca0a541be8c505b11"
+    },
+    "config.json": {
+     "size": 2543,
+     "sha256": "ed3655444ac88a8c42d482c902a4696924fbb4a45482416e9c8fc44f26ff120d"
+    },
+    "generation_config.json": {
+     "size": 169,
+     "sha256": "92d357e263fb88febe2f14f426e42ab77eb4bb31f0e887dac4ee090f4c184d45"
+    },
+    "merges.txt": {
+     "size": 2418348,
+     "sha256": "856ce61180bb689282eed6b3a6838bb1f438399be23aefe9d20eb379791fb4ad"
+    },
+    "openvino_config.json": {
+     "size": 616,
+     "sha256": "f3d53a3a48bd32d58faf189f5b455d75b8dd4282c3933e7f365e902a1b0770f5"
+    },
+    "openvino_detokenizer.bin": {
+     "size": 2998349,
+     "sha256": "58ec20da66d1d780b298f3cdcf252ccc0e228636fc7bee219163af81f1837e0a"
+    },
+    "openvino_detokenizer.xml": {
+     "size": 6957,
+     "sha256": "ba64c70c9fb201832f8eb661dc07b2ac0a15d81a084b6c928d9193fdea50bddf"
+    },
+    "openvino_model.bin": {
+     "size": 2353486508,
+     "sha256": "4e9a980e5e49e7a44e976177b80a948026010341ce4a8de8ba7ae72fef5dda15"
+    },
+    "openvino_model.xml": {
+     "size": 2893854,
+     "sha256": "030322158ca113a800d00bada61d80feaae77ff75e71e9886ee9031a19da7b90"
+    },
+    "openvino_tokenizer.bin": {
+     "size": 7602768,
+     "sha256": "818537d6633196e2f45e51017a6320010ca3c06120460c14028a6c325f92f477"
+    },
+    "openvino_tokenizer.xml": {
+     "size": 21429,
+     "sha256": "b2b509588e29bf5896e25f4c10d65dbfb7e3bb1e98c51641e711e0dfc867210f"
+    },
+    "special_tokens_map.json": {
+     "size": 587,
+     "sha256": "aff38493227d813e29fcf8406e8e90062f1f031aa47d589325e9c31d89ac7cc3"
+    },
+    "tokenizer.json": {
+     "size": 15524095,
+     "sha256": "382cc235b56c725945e149cc25f191da667c836655efd0857b004320e90e91ea"
+    },
+    "tokenizer_config.json": {
+     "size": 2962,
+     "sha256": "76c79ba1828e98a574123dd5de047587219ed8c1ab20702d340bc10a7a32b6bd"
+    },
+    "vocab.json": {
+     "size": 3910310,
+     "sha256": "6cb65a857824fa6615bb1782d95d882617a8bbce1da0317118586b36f39e98bd"
+    }
+   }
+  },
+  "openvino/base": {
+   "repo": "OpenVINO/whisper-base-int8-ov",
+   "revision": "0606293f0511136ada21755a265492f623a934b8",
+   "files": {
+    "added_tokens.json": {
+     "size": 34604,
+     "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1"
+    },
+    "config.json": {
+     "size": 1320,
+     "sha256": "7580357cd33e60d3c453b90b6ab4d78606cbc5de32cc2da8df873468dcfac237"
+    },
+    "generation_config.json": {
+     "size": 3802,
+     "sha256": "a24ccb25a8638fb23d3acfa0b234982497dd30bb3c577d145619525629f38e97"
+    },
+    "merges.txt": {
+     "size": 493869,
+     "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6"
+    },
+    "normalizer.json": {
+     "size": 52666,
+     "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+    },
+    "openvino_config.json": {
+     "size": 443,
+     "sha256": "62a8f3b61e52493b7b60ca1b2f42bd1aa34e2c95df4230945507d45537cafd5e"
+    },
+    "openvino_decoder_model.bin": {
+     "size": 52439987,
+     "sha256": "1e373d629c4a1a5c7a1964188f77c2b52b0bb488f27015fd9dc35bcb1e7eef42"
+    },
+    "openvino_decoder_model.xml": {
+     "size": 564428,
+     "sha256": "901c8584bd9c7721b879d617d2941fb9c318150cfec5d04056bc8faaa9745285"
+    },
+    "openvino_detokenizer.bin": {
+     "size": 736181,
+     "sha256": "2542d1fe6c4c5d838e7b7c61b24996b94ae0cb54e64ff6dbaab2b9dd5ddd7ca0"
+    },
+    "openvino_detokenizer.xml": {
+     "size": 9699,
+     "sha256": "2ef46e0d325a858753784b4f96172bd0e627cd9ff1fd0c9db5ac8bc1785b8c7f"
+    },
+    "openvino_encoder_model.bin": {
+     "size": 23097456,
+     "sha256": "a0aa4518850411dfadc7799b426d7c08e966a85367be96588432fbadf40789d8"
+    },
+    "openvino_encoder_model.xml": {
+     "size": 295834,
+     "sha256": "79dc09241718475ca14277bb16766cfb688b279f412cae8972b1c1857863ae3a"
+    },
+    "openvino_tokenizer.bin": {
+     "size": 1898933,
+     "sha256": "846f3c65f7a71f120fce7aaaf41b342f0767eb13e3c4e7c2a54f1d49b5c38fda"
+    },
+    "openvino_tokenizer.xml": {
+     "size": 27011,
+     "sha256": "3e4ddd6e2031c307d5db367630298ae77d6f9f5675b689cb536e0da617a0e38d"
+    },
+    "preprocessor_config.json": {
+     "size": 356,
+     "sha256": "994838f1fa6462c8b9b3c90edada831f11f3dd8b4664634e18f4694d005c9dbf"
+    },
+    "special_tokens_map.json": {
+     "size": 2194,
+     "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691"
+    },
+    "tokenizer.json": {
+     "size": 3930494,
+     "sha256": "7b469ff15eb7816315aa45eec391f5943d639b9d73d110f5c003df5192fd54e3"
+    },
+    "tokenizer_config.json": {
+     "size": 282713,
+     "sha256": "21a4fc0483c14b87f4e0bbc177a9a357479bfa7c95aaf21ad53d71e9c5afafb9"
+    },
+    "vocab.json": {
+     "size": 835550,
+     "sha256": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+    }
+   }
+  },
+  "openvino/base.en": {
+   "repo": "OpenVINO/whisper-base.en-int8-ov",
+   "revision": "3b292a83752fbfcad0bd6384bcf71d0b1fc4fe74",
+   "files": {
+    "added_tokens.json": {
+     "size": 34604,
+     "sha256": "560be47bea388757f8d4cc185c5d82067426cbb6361e38016dd90ddc01ab203a"
+    },
+    "config.json": {
+     "size": 1272,
+     "sha256": "ae9ba0d02f244aa48df4d8637fcf3ce517229fb9148ecef13d44ac83b7e2a6c3"
+    },
+    "generation_config.json": {
+     "size": 1526,
+     "sha256": "7eb6f9dca9df06ca5ae8ed43ee5b05b200af22fedbb3fe7e0f10ea354e44b641"
+    },
+    "merges.txt": {
+     "size": 456318,
+     "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    "normalizer.json": {
+     "size": 52666,
+     "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+    },
+    "openvino_config.json": {
+     "size": 449,
+     "sha256": "0df030689716fda7e84b202a90c49e5a8123d43b3b74a444c913c2b8ada484d5"
+    },
+    "openvino_decoder_model.bin": {
+     "size": 52439472,
+     "sha256": "fa97c0aa3989311aca9eeaa72997d2d14ae112b0c8a54d055a4d7dca88bca1e9"
+    },
+    "openvino_decoder_model.xml": {
+     "size": 564428,
+     "sha256": "427586ba26761013ac9cbedbec132b574ff0d522542e2c0b6e5b885b8c7dce34"
+    },
+    "openvino_detokenizer.bin": {
+     "size": 749930,
+     "sha256": "7045e2ab69c216fa4ef1d129fcce4d36bcf5583f01b823279278b52626238e0c"
+    },
+    "openvino_detokenizer.xml": {
+     "size": 9699,
+     "sha256": "15699b574239b9d4e6ce9e37a97db2b179d3907f4afb8ee7f7950b61bb9f6902"
+    },
+    "openvino_encoder_model.bin": {
+     "size": 23097456,
+     "sha256": "f2efb087f58680a7d7cc9916a3ab8712e776ddf579b7dcce38945da08441609b"
+    },
+    "openvino_encoder_model.xml": {
+     "size": 295834,
+     "sha256": "79dc09241718475ca14277bb16766cfb688b279f412cae8972b1c1857863ae3a"
+    },
+    "openvino_tokenizer.bin": {
+     "size": 1926439,
+     "sha256": "8c9def49b61ff1cdd929b1c4b035e6714f69157587ada9cbb61cb15d6248ea2b"
+    },
+    "openvino_tokenizer.xml": {
+     "size": 27011,
+     "sha256": "e23e9eb65cd4e0cfd7425a6a329dda7a961453fcdcec6ba4d8e8d0614b239e9a"
+    },
+    "preprocessor_config.json": {
+     "size": 356,
+     "sha256": "994838f1fa6462c8b9b3c90edada831f11f3dd8b4664634e18f4694d005c9dbf"
+    },
+    "special_tokens_map.json": {
+     "size": 2173,
+     "sha256": "98bdf3ec5b32e31575b02f64b0a32bde7c0449075d34484a7df9bdd3cdeb9fb9"
+    },
+    "tokenizer.json": {
+     "size": 3855707,
+     "sha256": "287537d5be89a39bd18e7e3875ad9900faa668493fb759392b8f52a492eca5db"
+    },
+    "tokenizer_config.json": {
+     "size": 282692,
+     "sha256": "7498445adabf4fd836db90b0f0d979ca9dc0b543528e5d9f1912430a5879e212"
+    },
+    "vocab.json": {
+     "size": 798156,
+     "sha256": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+    }
+   }
+  },
+  "openvino/distil-large-v3": {
+   "repo": "OpenVINO/distil-whisper-large-v3-int8-ov",
+   "revision": "7210c37ac7fb59669a9768fe194c5fe022ddc743",
+   "files": {
+    "added_tokens.json": {
+     "size": 34648,
+     "sha256": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0"
+    },
+    "config.json": {
+     "size": 1302,
+     "sha256": "f2ad7fe724f34cca9c4a17ee3e8e9dd297461cedef357318179198ae00697b55"
+    },
+    "generation_config.json": {
+     "size": 4242,
+     "sha256": "1ace5fd5a162c94e76f170b372974db0dd44e60a3619ecbf09d1ab909fcf6490"
+    },
+    "merges.txt": {
+     "size": 493869,
+     "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6"
+    },
+    "normalizer.json": {
+     "size": 52666,
+     "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+    },
+    "openvino_config.json": {
+     "size": 465,
+     "sha256": "c936cb39f58e85766778f859bc00211222b780fce135abf7361ea3a1921d3107"
+    },
+    "openvino_decoder_model.bin": {
+     "size": 119831990,
+     "sha256": "15c407b7850fb126e8fe053dff744b9df1c312e8a3aca9818e43c7f4eab2c6d0"
+    },
+    "openvino_decoder_model.xml": {
+     "size": 216009,
+     "sha256": "955b4a2c4c60909377d04a6d06b9b0a2acf49cd43c2aef81c8840c133ff3558e"
+    },
+    "openvino_detokenizer.bin": {
+     "size": 736198,
+     "sha256": "f2b3c47825a1089525ff65c0c8e49271e1dee69a401a04fc827ac2de5b7766e4"
+    },
+    "openvino_detokenizer.xml": {
+     "size": 9699,
+     "sha256": "c72f533f031414f0bd8ef83bd9b76e2a6a601edf3b8e8ea749c2a5b9c343ff73"
+    },
+    "openvino_encoder_model.bin": {
+     "size": 645332592,
+     "sha256": "fffcbf47a4cfd5a1e3f57c0569f5ef706245b798ef626db5ffea7b84166ed865"
+    },
+    "openvino_encoder_model.xml": {
+     "size": 1518639,
+     "sha256": "961a70d37b7209ddf465a7646cec7f02606fbbb84850a1b7e65adb212477751d"
+    },
+    "openvino_tokenizer.bin": {
+     "size": 1898973,
+     "sha256": "adfa3d9a2920d0f314121270a960ab331ec0f05838544bb8ecaaa422282a6fd4"
+    },
+    "openvino_tokenizer.xml": {
+     "size": 27011,
+     "sha256": "382c880c4b75b84a6469fc55f2b39c6bba4bed9457b9bf62ad6967a85526a915"
+    },
+    "preprocessor_config.json": {
+     "size": 357,
+     "sha256": "654cf18d3e163b948ceaf9766da56ce0b52de265d58673cf61c9376f126bd499"
+    },
+    "special_tokens_map.json": {
+     "size": 2186,
+     "sha256": "baea4ea09372eb4fca86b4e4346139fd73cb807d5087e9de0948e971739c3e74"
+    },
+    "tokenizer.json": {
+     "size": 3930645,
+     "sha256": "5c1bf30c9e716e1477bedef846b01be0013daecb89e9e3ef7ab89b23c178df1b"
+    },
+    "tokenizer_config.json": {
+     "size": 282873,
+     "sha256": "3c75940dfce3a294fca7041a5faff011677f1b68fa85e47511bb8cf6dccaded6"
+    },
+    "vocab.json": {
+     "size": 835528,
+     "sha256": "6788c80b082e9b0d1393147d3a3e62ba19285ac0c82ace8e5ef00f37ead58971"
+    }
+   }
+  },
+  "openvino/large-v3-turbo": {
+   "repo": "OpenVINO/whisper-large-v3-turbo-int8-ov",
+   "revision": "b568445dd5dc8c695bde596f8acbb4694fd6ba64",
+   "files": {
+    "added_tokens.json": {
+     "size": 34648,
+     "sha256": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0"
+    },
+    "config.json": {
+     "size": 1192,
+     "sha256": "bfd92c097547ab12cb42abae8008be5a59a91fdc5ab39acce24489eb8a3e8a86"
+    },
+    "generation_config.json": {
+     "size": 3767,
+     "sha256": "4617fcca458af3b91a103143aaac919c1ab6680b552d7abd10811b7248bd77b4"
+    },
+    "merges.txt": {
+     "size": 493869,
+     "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6"
+    },
+    "normalizer.json": {
+     "size": 52666,
+     "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+    },
+    "openvino_config.json": {
+     "size": 622,
+     "sha256": "9da38e88cec069ad54699d627f1c59d36c36a3dfb54b5e1bb5cfdf5832efaf03"
+    },
+    "openvino_decoder_model.bin": {
+     "size": 172534710,
+     "sha256": "c064991cbafc4381567d29972b7013dc24026de9c326d03eb1e6e4fc44aa959f"
+    },
+    "openvino_decoder_model.xml": {
+     "size": 391642,
+     "sha256": "aeb09fafbf1c0cbf84baf30f46763436005822faf3b365359b8de0aa04f03047"
+    },
+    "openvino_detokenizer.bin": {
+     "size": 736198,
+     "sha256": "f2b3c47825a1089525ff65c0c8e49271e1dee69a401a04fc827ac2de5b7766e4"
+    },
+    "openvino_detokenizer.xml": {
+     "size": 9779,
+     "sha256": "6e106a14f14b0771b46b7948a99b1d819ff93b2455b7da8f47761ab9dba9dc56"
+    },
+    "openvino_encoder_model.bin": {
+     "size": 645332592,
+     "sha256": "0590a8f35f96d57801c55990028d917821ac721026e34b7f3f59d7561fc908e6"
+    },
+    "openvino_encoder_model.xml": {
+     "size": 1518660,
+     "sha256": "60713d4ed3a8ac8ee020e11c4737ec276d14cabc6a082537bddf2c00ba6ce070"
+    },
+    "openvino_tokenizer.bin": {
+     "size": 1898973,
+     "sha256": "adfa3d9a2920d0f314121270a960ab331ec0f05838544bb8ecaaa422282a6fd4"
+    },
+    "openvino_tokenizer.xml": {
+     "size": 27091,
+     "sha256": "cba304e7bad54773b9d2cbccfbc8501117ecf2e3c0f4f5331742a0a3c9feed93"
+    },
+    "preprocessor_config.json": {
+     "size": 357,
+     "sha256": "654cf18d3e163b948ceaf9766da56ce0b52de265d58673cf61c9376f126bd499"
+    },
+    "special_tokens_map.json": {
+     "size": 2186,
+     "sha256": "baea4ea09372eb4fca86b4e4346139fd73cb807d5087e9de0948e971739c3e74"
+    },
+    "tokenizer.json": {
+     "size": 3930645,
+     "sha256": "5c1bf30c9e716e1477bedef846b01be0013daecb89e9e3ef7ab89b23c178df1b"
+    },
+    "tokenizer_config.json": {
+     "size": 282873,
+     "sha256": "3c75940dfce3a294fca7041a5faff011677f1b68fa85e47511bb8cf6dccaded6"
+    },
+    "vocab.json": {
+     "size": 835528,
+     "sha256": "6788c80b082e9b0d1393147d3a3e62ba19285ac0c82ace8e5ef00f37ead58971"
+    }
+   }
+  },
+  "openvino/small": {
+   "repo": "OpenVINO/whisper-small-int8-ov",
+   "revision": "5b831719e093f86e1970be663e524fe001489f9b",
+   "files": {
+    "added_tokens.json": {
+     "size": 34604,
+     "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1"
+    },
+    "config.json": {
+     "size": 1325,
+     "sha256": "2d1cf9f56daeb3c1afabb7fbd9df05e9d9e00d4aca728be033097cd9ab8ebf1f"
+    },
+    "generation_config.json": {
+     "size": 3841,
+     "sha256": "bf619a40ae65e028b089124d04b294b0e8aabfbc0f9f8c5b93b584652d15ec5e"
+    },
+    "merges.txt": {
+     "size": 493869,
+     "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6"
+    },
+    "normalizer.json": {
+     "size": 52666,
+     "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+    },
+    "openvino_config.json": {
+     "size": 445,
+     "sha256": "dce6b43e54dab3eb21d6995fd113dc49f337fd2e650e3c63ed849bcf7bfbd54d"
+    },
+    "openvino_decoder_model.bin": {
+     "size": 154571955,
+     "sha256": "836642928d3354f0f239a45a4166bdd42647cc0e085b7e9d85b303d050e55a3b"
+    },
+    "openvino_decoder_model.xml": {
+     "size": 1092851,
+     "sha256": "d44d10b6ff3ce686f1d24cc932c3a178dde693fc1a4107474ce79aaafe6d33bd"
+    },
+    "openvino_detokenizer.bin": {
+     "size": 736181,
+     "sha256": "2542d1fe6c4c5d838e7b7c61b24996b94ae0cb54e64ff6dbaab2b9dd5ddd7ca0"
+    },
+    "openvino_detokenizer.xml": {
+     "size": 9699,
+     "sha256": "2a3166e38653bb5531a44bab187ffabefdb49f70069ab3d7a05f2b7dd816dfa0"
+    },
+    "openvino_encoder_model.bin": {
+     "size": 92204656,
+     "sha256": "cb4ce5067a24d0edf1f29ce4ed7162958be9c5efa7f4cc357b23aaac224d736e"
+    },
+    "openvino_encoder_model.xml": {
+     "size": 574964,
+     "sha256": "778225a033690a0661cfdfd79352c569e34943754ef394234df8ffb507049430"
+    },
+    "openvino_tokenizer.bin": {
+     "size": 1898933,
+     "sha256": "846f3c65f7a71f120fce7aaaf41b342f0767eb13e3c4e7c2a54f1d49b5c38fda"
+    },
+    "openvino_tokenizer.xml": {
+     "size": 27011,
+     "sha256": "9b362d31bae5855e5c4f5e2e1a2196337264b84f546161333027e34ed92a44dd"
+    },
+    "preprocessor_config.json": {
+     "size": 356,
+     "sha256": "994838f1fa6462c8b9b3c90edada831f11f3dd8b4664634e18f4694d005c9dbf"
+    },
+    "special_tokens_map.json": {
+     "size": 2194,
+     "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691"
+    },
+    "tokenizer.json": {
+     "size": 3930494,
+     "sha256": "7b469ff15eb7816315aa45eec391f5943d639b9d73d110f5c003df5192fd54e3"
+    },
+    "tokenizer_config.json": {
+     "size": 282713,
+     "sha256": "21a4fc0483c14b87f4e0bbc177a9a357479bfa7c95aaf21ad53d71e9c5afafb9"
+    },
+    "vocab.json": {
+     "size": 835550,
+     "sha256": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9"
+    }
+   }
+  },
+  "openvino/small.en": {
+   "repo": "OpenVINO/whisper-small.en-int8-ov",
+   "revision": "cc80452e452a46978219a7069ed96a6e47cabe44",
+   "files": {
+    "added_tokens.json": {
+     "size": 34604,
+     "sha256": "560be47bea388757f8d4cc185c5d82067426cbb6361e38016dd90ddc01ab203a"
+    },
+    "config.json": {
+     "size": 1277,
+     "sha256": "99bab42bf2040dc12c4f905fa98d8891ad783db26e7b2221a8fcc730c5fe5c90"
+    },
+    "generation_config.json": {
+     "size": 1926,
+     "sha256": "18ac89af389de6a5d999b412bcd25dbae257a896269fbd27053800a507f1ec5b"
+    },
+    "merges.txt": {
+     "size": 456318,
+     "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+    },
+    "normalizer.json": {
+     "size": 52666,
+     "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+    },
+    "openvino_config.json": {
+     "size": 451,
+     "sha256": "6202273df47265ad2b84dcdbe6ff0bd7127838b8d442747e04e3206e0961bddf"
+    },
+    "openvino_decoder_model.bin": {
+     "size": 154571184,
+     "sha256": "d7746da91edc40f2762dbe8c7c47ebfd4bdd7adf54b238efe12396cf79f7c944"
+    },
+    "openvino_decoder_model.xml": {
+     "size": 1092851,
+     "sha256": "3fd6724d9d5bfe28370d1f0aa3e62ceb9db4016777daffa0aade87988a861da4"
+    },
+    "openvino_detokenizer.bin": {
+     "size": 749930,
+     "sha256": "7045e2ab69c216fa4ef1d129fcce4d36bcf5583f01b823279278b52626238e0c"
+    },
+    "openvino_detokenizer.xml": {
+     "size": 9699,
+     "sha256": "6b6e686c29b3b0475c6f3a4e8bc9e64356da058a1d00d86788790ff3ae7ed36c"
+    },
+    "openvino_encoder_model.bin": {
+     "size": 92204656,
+     "sha256": "32461654628c8a3c2a6279234cedb436844d130e4d9ce062e28b6cc2e432ec07"
+    },
+    "openvino_encoder_model.xml": {
+     "size": 574964,
+     "sha256": "778225a033690a0661cfdfd79352c569e34943754ef394234df8ffb507049430"
+    },
+    "openvino_tokenizer.bin": {
+     "size": 1926439,
+     "sha256": "8c9def49b61ff1cdd929b1c4b035e6714f69157587ada9cbb61cb15d6248ea2b"
+    },
+    "openvino_tokenizer.xml": {
+     "size": 27011,
+     "sha256": "c7528b7f29f3c425c9b3a8d75a617766d1acfe66e67472fddfdad8cb8702a55b"
+    },
+    "preprocessor_config.json": {
+     "size": 356,
+     "sha256": "994838f1fa6462c8b9b3c90edada831f11f3dd8b4664634e18f4694d005c9dbf"
+    },
+    "special_tokens_map.json": {
+     "size": 2173,
+     "sha256": "98bdf3ec5b32e31575b02f64b0a32bde7c0449075d34484a7df9bdd3cdeb9fb9"
+    },
+    "tokenizer.json": {
+     "size": 3855707,
+     "sha256": "287537d5be89a39bd18e7e3875ad9900faa668493fb759392b8f52a492eca5db"
+    },
+    "tokenizer_config.json": {
+     "size": 282692,
+     "sha256": "7498445adabf4fd836db90b0f0d979ca9dc0b543528e5d9f1912430a5879e212"
+    },
+    "vocab.json": {
+     "size": 798156,
+     "sha256": "3ba3c3109ff33976c4bd966589c11ee14fcaa1f4c9e5e154c2ed7f99d80709e7"
+    }
+   }
+  }
+ }
+}
